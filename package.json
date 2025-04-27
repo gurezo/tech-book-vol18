@@ -4,7 +4,10 @@
   "description": "this is tech book vol.18",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "init": "honkit init",
+    "start": "honkit serve",
+    "build": "honkit build",
+    "publish": "gh-pages -d _book -m 'Auto publish book'"
   },
   "author": "",
   "license": "ISC",
