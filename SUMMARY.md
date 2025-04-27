@@ -30,3 +30,4 @@
   - [VEML6070 UV センサー](./docs/veml6070.md)
   - [VL53L0X レーザー測距センサー 30 mm - 2 m](./docs/vl53l0x.md)
   - [vl53l1x](./docs/vl53l1x.md)
+- [コントリビュートについて](CONTRIBUTING.md)

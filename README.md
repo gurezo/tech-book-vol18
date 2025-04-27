@@ -2,18 +2,17 @@
 
 ## センサー一覧
 
-- [ads1x15](./docs/ads1x15.md)
+- [ADDA 変換モジュール ADS1115](./docs/ads1x15.md)
 - [ADS1015 12 ビット AD コンバータ](./docs/ads1015.md)
 - [ADT7410 温度センサー](./docs/adt7410.md)
 - [ADXL345 Grove Accelerometer 3 軸加速度センサー](./docs/adxl345.md)
-- [I2C 接続の赤外線測距センサー](./docs/amg8833.md)
-- [bh1750](./docs/bh1750.md)
-- [bme280](./docs/bme280.md)
+- [AMG8833 I2C 接続の赤外線測距センサー](./docs/amg8833.md)
+- [BH1750 照度センサー](./docs/bh1750.md)
+- [BME280 温湿度・気圧センサー](./docs/bme280.md)
 - [bmp180](./docs/bmp180.md)
 - [bmp280](./docs/bmp280.md)
 - [gp2y0e03](./docs/gp2y0e03.md)
 - [ina219](./docs/ina219.md)
-- [index](./docs/index.md)
 - [mlx90614](./docs/mlx90614.md)
 - [MPR121 Grove Touch Sensor タッチセンサー](./docs/mpr121.md)
 - [mpu6050](./docs/mpu6050.md)
@@ -31,3 +30,7 @@
 - [VEML6070 UV センサー](./docs/veml6070.md)
 - [VL53L0X レーザー測距センサー 30 mm - 2 m](./docs/vl53l0x.md)
 - [vl53l1x](./docs/vl53l1x.md)
+
+## コントリビュートについて
+
+- [Contributing Guidelines](CONTRIBUTING.md)
