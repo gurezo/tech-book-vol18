@@ -38,7 +38,7 @@ Raspberry Pi や Arduino などの開発ボードと、温度・湿度・加速�
 #### OS
 
 - Rasbian OS をカスタマイズした [chrimen-lite](https://github.com/chirimen-oh/chirimen-lite) という OS を使用します。
-- OS は、[こちら](https://github.com/chirimen-oh/chirimen-lite/releases)からダウンロード
+- OS は、[こちら](https://github.com/chirimen-oh/chirimen-lite/releases)からダウンロードして下さい。
 
 ### 直ぐに開発を始めたい方
 
