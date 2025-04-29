@@ -93,7 +93,7 @@
                 <a href="../">
             
                     
-                    Introduction
+                    CHIRIMEN と Raspberry Pi Zero W で始めるセンサー制御入門
             
                 </a>
             
@@ -553,11 +553,11 @@ Grove-Light で使用されているチップは、TSL2561 です。<a href="htt
 <li><a href="https://www.switch-science.com/catalog/1048/" target="_blank">GROVE - 4 ピン-ジャンパメスケーブル</a> x 1</li>
 </ul>
 <h2 id="配線図">配線図</h2>
-<p><img src="../node-examples/tsl2561/schematic.png" alt="配線図" title="schematic"></img></p>
+<p><img src="images/tsl2561/schematic.png" alt="配線図" title="schematic"></img></p>
 <h2 id="サンプルコード-mainjs">サンプルコード (main.js)</h2>
-<pre><code class="lang-javascript"><span class="hljs-keyword">const</span> { requestI2CAccess } = <span class="hljs-built_in">require</span>(<span class="hljs-string">"node-web-i2c"</span>);
-<span class="hljs-keyword">const</span> <span class="hljs-variable constant_">GROVELIGHT</span> = <span class="hljs-built_in">require</span>(<span class="hljs-string">"@chirimen/grove-light"</span>);
-<span class="hljs-keyword">const</span> { promisify } = <span class="hljs-built_in">require</span>(<span class="hljs-string">"util"</span>);
+<pre><code class="lang-javascript"><span class="hljs-keyword">const</span> { requestI2CAccess } = <span class="hljs-built_in">require</span>(<span class="hljs-string">'node-web-i2c'</span>);
+<span class="hljs-keyword">const</span> <span class="hljs-variable constant_">GROVELIGHT</span> = <span class="hljs-built_in">require</span>(<span class="hljs-string">'@chirimen/grove-light'</span>);
+<span class="hljs-keyword">const</span> { promisify } = <span class="hljs-built_in">require</span>(<span class="hljs-string">'util'</span>);
 <span class="hljs-keyword">const</span> sleep = <span class="hljs-title function_">promisify</span>(<span class="hljs-built_in">setTimeout</span>);
 
 <span class="hljs-title function_">main</span>();
@@ -572,7 +572,7 @@ Grove-Light で使用されているチップは、TSL2561 です。<a href="htt
       <span class="hljs-keyword">const</span> value = <span class="hljs-keyword">await</span> grovelight.<span class="hljs-title function_">read</span>();
       <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(value);
     } <span class="hljs-keyword">catch</span> (error) {
-      <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">error</span>(<span class="hljs-string">" Error : "</span>, error);
+      <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">error</span>(<span class="hljs-string">' Error : '</span>, error);
     }
     <span class="hljs-keyword">await</span> <span class="hljs-title function_">sleep</span>(<span class="hljs-number">200</span>);
   }
@@ -623,7 +623,7 @@ Grove-Light で使用されているチップは、TSL2561 です。<a href="htt
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"TSL2561 Grove Digital Light Sensor 光センサー","level":"1.1.26","depth":2,"next":{"title":"VEML6070 UV センサー","level":"1.1.27","depth":2,"path":"docs/veml6070.md","ref":"./docs/veml6070.md","articles":[]},"previous":{"title":"tcs34725","level":"1.1.25","depth":2,"path":"docs/tcs34725.md","ref":"./docs/tcs34725.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"docs/tsl2561.md","mtime":"2025-04-27T04:22:22.162Z","type":"markdown"},"gitbook":{"version":"6.0.2","time":"2025-04-29T06:57:09.202Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"TSL2561 Grove Digital Light Sensor 光センサー","level":"1.1.26","depth":2,"next":{"title":"VEML6070 UV センサー","level":"1.1.27","depth":2,"path":"docs/veml6070.md","ref":"./docs/veml6070.md","articles":[]},"previous":{"title":"tcs34725","level":"1.1.25","depth":2,"path":"docs/tcs34725.md","ref":"./docs/tcs34725.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"docs/tsl2561.md","mtime":"2025-04-29T07:23:09.447Z","type":"markdown"},"gitbook":{"version":"6.0.2","time":"2025-04-29T07:23:58.639Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

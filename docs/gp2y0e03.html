@@ -93,7 +93,7 @@
                 <a href="../">
             
                     
-                    Introduction
+                    CHIRIMEN と Raspberry Pi Zero W で始めるセンサー制御入門
             
                 </a>
             
@@ -554,11 +554,11 @@
 <li>ブレッドボード x 1</li>
 </ul>
 <h2 id="配線図">配線図</h2>
-<p><img src="../node-examples/gp2y0e03/schematic.png" alt="配線図" title="schematic"></img></p>
+<p><img src="images/gp2y0e03/schematic.png" alt="配線図" title="schematic"></img></p>
 <h2 id="サンプルコード-mainjs">サンプルコード (main.js)</h2>
-<pre><code class="lang-javascript"><span class="hljs-keyword">const</span> { requestI2CAccess } = <span class="hljs-built_in">require</span>(<span class="hljs-string">"node-web-i2c"</span>);
-<span class="hljs-keyword">const</span> <span class="hljs-title class_">GP2Y</span>0E03 = <span class="hljs-built_in">require</span>(<span class="hljs-string">"@chirimen/gp2y0e03"</span>);
-<span class="hljs-keyword">const</span> { promisify } = <span class="hljs-built_in">require</span>(<span class="hljs-string">"util"</span>);
+<pre><code class="lang-javascript"><span class="hljs-keyword">const</span> { requestI2CAccess } = <span class="hljs-built_in">require</span>(<span class="hljs-string">'node-web-i2c'</span>);
+<span class="hljs-keyword">const</span> <span class="hljs-title class_">GP2Y</span>0E03 = <span class="hljs-built_in">require</span>(<span class="hljs-string">'@chirimen/gp2y0e03'</span>);
+<span class="hljs-keyword">const</span> { promisify } = <span class="hljs-built_in">require</span>(<span class="hljs-string">'util'</span>);
 <span class="hljs-keyword">const</span> sleep = <span class="hljs-title function_">promisify</span>(<span class="hljs-built_in">setTimeout</span>);
 
 <span class="hljs-title function_">main</span>();
@@ -574,17 +574,17 @@
       <span class="hljs-keyword">try</span> {
         <span class="hljs-keyword">const</span> distance = <span class="hljs-keyword">await</span> sensor_unit.<span class="hljs-title function_">read</span>();
         <span class="hljs-keyword">if</span> (distance != <span class="hljs-literal">null</span>) {
-          <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">"Distance:"</span> + distance + <span class="hljs-string">"cm"</span>);
+          <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">'Distance:'</span> + distance + <span class="hljs-string">'cm'</span>);
         } <span class="hljs-keyword">else</span> {
-          <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">"out of range"</span>);
+          <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">'out of range'</span>);
         }
       } <span class="hljs-keyword">catch</span> (err) {
-        <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">error</span>(<span class="hljs-string">"READ ERROR:"</span> + err);
+        <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">error</span>(<span class="hljs-string">'READ ERROR:'</span> + err);
       }
       <span class="hljs-keyword">await</span> <span class="hljs-title function_">sleep</span>(<span class="hljs-number">500</span>);
     }
   } <span class="hljs-keyword">catch</span> (err) {
-    <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">error</span>(<span class="hljs-string">"GP2Y0E03 init error"</span>);
+    <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">error</span>(<span class="hljs-string">'GP2Y0E03 init error'</span>);
   }
 }
 </code></pre>
@@ -633,7 +633,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"gp2y0e03","level":"1.1.10","depth":2,"next":{"title":"ina219","level":"1.1.11","depth":2,"path":"docs/ina219.md","ref":"./docs/ina219.md","articles":[]},"previous":{"title":"bmp280","level":"1.1.9","depth":2,"path":"docs/bmp280.md","ref":"./docs/bmp280.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"docs/gp2y0e03.md","mtime":"2025-04-27T04:22:22.159Z","type":"markdown"},"gitbook":{"version":"6.0.2","time":"2025-04-29T06:57:09.202Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"gp2y0e03","level":"1.1.10","depth":2,"next":{"title":"ina219","level":"1.1.11","depth":2,"path":"docs/ina219.md","ref":"./docs/ina219.md","articles":[]},"previous":{"title":"bmp280","level":"1.1.9","depth":2,"path":"docs/bmp280.md","ref":"./docs/bmp280.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"docs/gp2y0e03.md","mtime":"2025-04-29T07:23:09.359Z","type":"markdown"},"gitbook":{"version":"6.0.2","time":"2025-04-29T07:23:58.639Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

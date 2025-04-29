@@ -93,7 +93,7 @@
                 <a href="../">
             
                     
-                    Introduction
+                    CHIRIMEN と Raspberry Pi Zero W で始めるセンサー制御入門
             
                 </a>
             
@@ -545,7 +545,7 @@
                                 <h1 id="pca9685">pca9685</h1>
 <h1 id="pca9685-16-チャンネルサーボモーター-pwm-ドライバー">PCA9685 16 チャンネルサーボモーター PWM ドライバー</h1>
 <h2 id="概要">概要</h2>
-<p>I2C 接続の PWM ドライバー経由でサーボモーターを駆動します。（Raspberry Piから PWM ドライバーを I2C 接続し、 PWM ドライバとサーボモータ、外部電源を接続します。詳細は回路図を参照ください）</p>
+<p>I2C 接続の PWM ドライバー経由でサーボモーターを駆動します。（Raspberry Pi から PWM ドライバーを I2C 接続し、 PWM ドライバとサーボモータ、外部電源を接続します。詳細は回路図を参照ください）</p>
 <h2 id="使用パーツ">使用パーツ</h2>
 <ul>
 <li><a href="https://www.switch-science.com/catalog/961/" target="_blank">PCA9685 搭載 16 チャネル PWM/サーボ ドライバー (I2C 接続)</a> x 1 <a href="https://www.amazon.co.jp/s/?field-keywords=PCA9685" target="_blank">互換品</a>もあり</li>
@@ -558,11 +558,11 @@
 <li>「<a href="http://akizukidenshi.com/catalog/g/gK-10972/" target="_blank">電源用マイクロ USB コネクタ DIP 化キット</a> x 1」+「ブレッドボード x 1」「USB Micro B 端子-標準 A 端子のケーブル x 1」+「スマホ用 5V 充電器 x 1」+ 「ジャンパー（メス・オス）ケーブル x 2」</li>
 </ol>
 <h2 id="配線図">配線図</h2>
-<p><img src="../node-examples/pca9685/schematic.png" alt="配線図" title="schematic"></img></p>
+<p><img src="images/pca9685/schematic.png" alt="配線図" title="schematic"></img></p>
 <h2 id="サンプルコード-mainjs">サンプルコード (main.js)</h2>
-<pre><code class="lang-javascript"><span class="hljs-keyword">const</span> { requestI2CAccess } = <span class="hljs-built_in">require</span>(<span class="hljs-string">"node-web-i2c"</span>);
-<span class="hljs-keyword">const</span> <span class="hljs-title class_">PCA9685</span> = <span class="hljs-built_in">require</span>(<span class="hljs-string">"@chirimen/pca9685"</span>);
-<span class="hljs-keyword">const</span> { promisify } = <span class="hljs-built_in">require</span>(<span class="hljs-string">"util"</span>);
+<pre><code class="lang-javascript"><span class="hljs-keyword">const</span> { requestI2CAccess } = <span class="hljs-built_in">require</span>(<span class="hljs-string">'node-web-i2c'</span>);
+<span class="hljs-keyword">const</span> <span class="hljs-title class_">PCA9685</span> = <span class="hljs-built_in">require</span>(<span class="hljs-string">'@chirimen/pca9685'</span>);
+<span class="hljs-keyword">const</span> { promisify } = <span class="hljs-built_in">require</span>(<span class="hljs-string">'util'</span>);
 <span class="hljs-keyword">const</span> sleep = <span class="hljs-title function_">promisify</span>(<span class="hljs-built_in">setTimeout</span>);
 
 <span class="hljs-title function_">main</span>();
@@ -576,10 +576,10 @@
   <span class="hljs-keyword">await</span> pca9685.<span class="hljs-title function_">init</span>(<span class="hljs-number">0.001</span>, <span class="hljs-number">0.002</span>, <span class="hljs-number">30</span>);
   <span class="hljs-keyword">for</span> (;;) {
     <span class="hljs-keyword">await</span> pca9685.<span class="hljs-title function_">setServo</span>(<span class="hljs-number">0</span>, -<span class="hljs-number">30</span>);
-    <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">"-30 deg"</span>);
+    <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">'-30 deg'</span>);
     <span class="hljs-keyword">await</span> <span class="hljs-title function_">sleep</span>(<span class="hljs-number">1000</span>);
     <span class="hljs-keyword">await</span> pca9685.<span class="hljs-title function_">setServo</span>(<span class="hljs-number">0</span>, <span class="hljs-number">30</span>);
-    <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">"30 deg"</span>);
+    <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">'30 deg'</span>);
     <span class="hljs-keyword">await</span> <span class="hljs-title function_">sleep</span>(<span class="hljs-number">1000</span>);
   }
 }
@@ -629,7 +629,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"PCA9685 16 チャンネルサーボモーター PWM ドライバー","level":"1.1.19","depth":2,"next":{"title":"pcf8591","level":"1.1.20","depth":2,"path":"docs/pcf8591.md","ref":"./docs/pcf8591.md","articles":[]},"previous":{"title":"PAJ7620U2 Grove Gesture ジェスチャー認識センサー","level":"1.1.18","depth":2,"path":"docs/paj7620.md","ref":"./docs/paj7620.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"docs/pca9685.md","mtime":"2025-04-27T04:22:22.161Z","type":"markdown"},"gitbook":{"version":"6.0.2","time":"2025-04-29T06:57:09.202Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"PCA9685 16 チャンネルサーボモーター PWM ドライバー","level":"1.1.19","depth":2,"next":{"title":"pcf8591","level":"1.1.20","depth":2,"path":"docs/pcf8591.md","ref":"./docs/pcf8591.md","articles":[]},"previous":{"title":"PAJ7620U2 Grove Gesture ジェスチャー認識センサー","level":"1.1.18","depth":2,"path":"docs/paj7620.md","ref":"./docs/paj7620.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"docs/pca9685.md","mtime":"2025-04-29T07:23:09.340Z","type":"markdown"},"gitbook":{"version":"6.0.2","time":"2025-04-29T07:23:58.639Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
