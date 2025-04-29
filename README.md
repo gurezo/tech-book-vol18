@@ -37,7 +37,7 @@ Raspberry Pi と温度・湿度・加速度などのセンサーを組み合わ�
 
 #### OS
 
-- Rasbian OS をカスタマイズした [chrimen-lite](https://github.com/chirimen-oh/chirimen-lite) という OS を使用します。
+- Raspbian OS をカスタマイズした [CHIRIMEN Lite](https://github.com/chirimen-oh/chirimen-lite) という OS を使用します。
 - OS は、[こちら](https://github.com/chirimen-oh/chirimen-lite/releases)からダウンロードして下さい。
 
 ### 直ぐに開発を始めたい方

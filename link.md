@@ -11,7 +11,7 @@
 
 ### OS
 
-- [chrimen-lite](https://github.com/chirimen-oh/chirimen-lite)
+- [CHIRIMEN Lite](https://github.com/chirimen-oh/chirimen-lite)
 - [OS ダウンロード](https://github.com/chirimen-oh/chirimen-lite/releases)
 
 ### 参考記事
