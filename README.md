@@ -29,6 +29,9 @@ Raspberry Pi と温度・湿度・加速度などのセンサーを組み合わ�
 
 - Raspberry Pi Zero **`W`**
 - `Wi-fi 搭載モデル`の Raspberry Pi Zero です。
+- 購入先
+  - KSY:[Raspberry Pi Zero WH [RASPIZWHSC0065]](https://raspberry-pi.ksyic.com/main/index/pdp.id/406,407,408,409,410,219,222/pdp.open/219)
+  - SWITCH SCIENCE:[Raspberry Pi Zero WH [RPI-ZERO-WH]](https://www.switch-science.com/products/3646?_pos=1&_sid=e9fd90251&_ss=r)
 
 #### Node ライブラリ
 
