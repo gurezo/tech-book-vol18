@@ -7,17 +7,12 @@ Raspberry Pi や Arduino などの開発ボードと、温度・湿度・加速�
 
 ### 本書の特徴
 
-#### **初心者でも安心**
-
-- センサーの接続方法や開発環境のセットアップ手順を、写真や図を交えて丁寧に解説しています。
-
-#### **すぐに試せるサンプルコード**
-
-- 各センサーごとに、動作確認済みのサンプルコードを掲載。コピー＆ペーストですぐに動かせます。
-
-#### **実践的な活用例**
-
-- 実際のプロジェクトで役立つ、センサーの組み合わせ例や応用アイデアも紹介しています。
+- **初心者でも安心**
+  - センサーの接続方法や開発環境のセットアップ手順を、写真や図を交えて丁寧に解説しています。
+- **すぐに試せるサンプルコード**
+  - 各センサーごとに、動作確認済みのサンプルコードを掲載。コピー＆ペーストですぐに動かせます。
+- **実践的な活用例**
+  - 実際のプロジェクトで役立つ、センサーの組み合わせ例や応用アイデアも紹介しています。
 
 #### こんな方におすすめ
 
@@ -42,7 +37,12 @@ Raspberry Pi や Arduino などの開発ボードと、温度・湿度・加速�
 
 ### 直ぐに開発を始めたい方
 
-- [CHIRIMEN Raspberry Pi Zero W チュートリアル](https://tutorial.chirimen.org/pizero/) を御覧ください
+- [CHIRIMEN Raspberry Pi Zero W チュートリアル](https://tutorial.chirimen.org/pizero/) にアクセスして下さい
+  - [物品準備、PC を WiFi に接続](https://tutorial.chirimen.org/pizero/chapter_2-1)
+  - [ターミナル接続](https://tutorial.chirimen.org/pizero/chapter_2-2)
+    - [接続先：Pi Zero Web Serial Console](https://chirimen.org/PiZeroWebSerialConsole/PiZeroWebSerialConsole.html)
+  - [Pi Zero Web Serial Console の使い方](https://tutorial.chirimen.org/pizero/chapter_2-2-1)
+  - [Wi-fi 設定](https://tutorial.chirimen.org/pizero/chapter_2-3)
 
 ## コントリビュートについて
 
