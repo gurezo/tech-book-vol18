@@ -37,16 +37,12 @@ Raspberry Pi や Arduino などの開発ボードと、温度・湿度・加速�
 
 ### 直ぐに開発を始めたい方
 
-- [CHIRIMEN Raspberry Pi Zero W チュートリアル](https://tutorial.chirimen.org/pizero/) にアクセスして下さい
+- [CHIRIMEN Raspberry Pi Zero W チュートリアル](https://tutorial.chirimen.org/pizero/) にアクセスして下さい。
   - [物品準備、PC を WiFi に接続](https://tutorial.chirimen.org/pizero/chapter_2-1)
   - [ターミナル接続](https://tutorial.chirimen.org/pizero/chapter_2-2)
     - [接続先：Pi Zero Web Serial Console](https://chirimen.org/PiZeroWebSerialConsole/PiZeroWebSerialConsole.html)
   - [Pi Zero Web Serial Console の使い方](https://tutorial.chirimen.org/pizero/chapter_2-2-1)
   - [Wi-fi 設定](https://tutorial.chirimen.org/pizero/chapter_2-3)
-
-## コントリビュートについて
-
-- [Contributing Guidelines](CONTRIBUTING.md)
 
 ## センサー一覧
 
