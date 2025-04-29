@@ -1,6 +1,6 @@
 # Summary
 
-- [Introduction](README.md)
+- [CHIRIMEN と Raspberry Pi Zero W で始めるセンサー制御入門](README.md)
   - [ads1x15](./docs/ads1x15.md)
   - [ADS1015 12 ビット AD コンバータ](./docs/ads1015.md)
   - [ADT7410 温度センサー](./docs/adt7410.md)
