@@ -1,7 +1,8 @@
 ## リンク集
 
+### 公式ドキュメント
+
 - [CHIRIMEN Raspberry Pi Zero W チュートリアル](https://tutorial.chirimen.org/pizero/)
-- [Web GPIO API/Web I2C API を Raspberry Pi の Node.js から使う](https://zenn.dev/kou029w/articles/node-web-gpio)
 
 ### Node ライブラリ
 
@@ -12,3 +13,7 @@
 
 - [chrimen-lite](https://github.com/chirimen-oh/chirimen-lite)
 - [OS ダウンロード](https://github.com/chirimen-oh/chirimen-lite/releases)
+
+### 参考記事
+
+- [Web GPIO API/Web I2C API を Raspberry Pi の Node.js から使う](https://zenn.dev/kou029w/articles/node-web-gpio)
