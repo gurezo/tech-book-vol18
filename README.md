@@ -3,7 +3,7 @@
 ## 本書について
 
 本書は、各種センサーを使った電子工作やプログラミングに興味のある方のための技術同人誌です。  
-Raspberry Pi などの開発ボードと、温度・湿度・加速度などのセンサーを組み合わせて、実際に動かすためのサンプルコードや解説を掲載しています。
+Raspberry Pi と温度・湿度・加速度などのセンサーを組み合わせて、実際に動かすためのサンプルコードや解説を掲載しています。
 
 ### 本書の特徴
 
@@ -51,31 +51,5 @@ Raspberry Pi などの開発ボードと、温度・湿度・加速度などの�
 
 ## センサー一覧
 
-- [ADDA 変換モジュール ADS1115](./docs/ads1x15.md)
-- [ADS1015 12 ビット AD コンバータ](./docs/ads1015.md)
-- [ADT7410 温度センサー](./docs/adt7410.md)
-- [ADXL345 Grove Accelerometer 3 軸加速度センサー](./docs/adxl345.md)
-- [I2C 接続の赤外線測距センサー](./docs/amg8833.md)
-- [BH1750 照度センサー](./docs/bh1750.md)
-- [BME280 温湿度/気圧センサー](./docs/bme280.md)
-- [BMP180 気圧/温度/高度センサー](./docs/bmp180.md)
-- [BMP280 気圧/温度センサー](./docs/bmp280.md)
-- [GP2Y0E03 測距センサー](./docs/gp2y0e03.md)
-- [INA219 使用電流センサー](./docs/ina219.md)
-- [MLX90614 赤外線温度センサー](./docs/mlx90614.md)
-- [MPR121 Grove Touch Sensor タッチセンサー](./docs/mpr121.md)
-- [MPU6050 使用 ３軸ジャイロスコープ/３軸加速度センサー](./docs/mpu6050.md)
-- [MPU9250 9 軸ジャイロスコープ加速度計/磁気フィールドセンサー ](./docs/mpu9250.md)
-- [neopixel-i2c](./docs/neopixel-i2c.md)
-- [PAJ7620U2 Grove Gesture ジェスチャー認識センサー](./docs/paj7620.md)
-- [PCA9685 16 チャンネルサーボモーター PWM ドライバー](./docs/pca9685.md)
-- [PCF8591 AD/DA 転換モジュール](./docs/pcf8591.md)
-- [S11059 デジタルカラーセンサー](./docs/s11059.md)
-- [SHT30 温湿度センサー](./docs/sht30.md)
-- [SSD1306 OLED ディスプレイ](./docs/ssd1306.md)
-- [SSD1308 Grove OLED ディスプレイ](./docs/ssd1308.md)
-- [TCS34725 使用 カラーセンサー](./docs/tcs34725.md)
-- [TSL2561 Grove Digital Light Sensor 光センサー](./docs/tsl2561.md)
-- [VEML6070 UV センサー](./docs/veml6070.md)
-- [VL53L0X レーザー測距センサー 30 mm - 2 m](./docs/vl53l0x.md)
-- [VL53L1X レーザー測距センサー](./docs/vl53l1x.md)
+- [センサー一覧（カテゴリ別）](./sensor-list-category.md)
+- [センサー一覧（型番アルファベット順）](./sensor-list-alphabet.md)
