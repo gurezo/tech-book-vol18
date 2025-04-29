@@ -49,7 +49,7 @@ Raspberry Pi と温度・湿度・加速度などのセンサーを組み合わ�
   - [Pi Zero Web Serial Console の使い方](https://tutorial.chirimen.org/pizero/chapter_2-2-1)
   - [Wi-fi 設定](https://tutorial.chirimen.org/pizero/chapter_2-3)
 
-## センサー一覧
+## センサーリスト
 
-- [センサー一覧（カテゴリ別）](./sensor-list-category.md)
-- [センサー一覧（型番アルファベット順）](./sensor-list-alphabet.md)
+- [センサーリスト（カテゴリ別）](./sensor-list-category.md)
+- [センサーリスト（型番アルファベット順）](./sensor-list-alphabet.md)
