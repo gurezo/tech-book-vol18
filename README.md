@@ -1,5 +1,39 @@
 # CHIRIMEN Drivers ガイドブック
 
+## 本書について
+
+本書は、CHIRIMEN Open Hardware コミュニティで動作確認が取れた
+各種センサーのサンプルコードを紹介するガイドブックです。
+
+### 前提条件
+
+本書は、下記 Node ライブラリを使用する前提です。
+
+- [node-web-i2c](https://www.npmjs.com/package/node-web-i2c)
+- [node-web-gpio](https://www.npmjs.com/package/node-web-gpio)
+
+### 直ぐに開発を始めたい方
+
+#### Raspberry Pi Zero W
+
+以下の手順を行って下さい
+
+- [chirimen-lite](https://github.com/chirimen-oh/chirimen-lite) をダウンロード
+- Raspberry Pi Zero に上記 SD カードを装着
+- 電源起動
+- 任意の PC で、Chrome を開く
+- [CHIRIMEN Raspberry Pi Zero W チュートリアル](https://tutorial.chirimen.org/pizero/) を御覧ください
+
+#### Raspberry Pi 3/4
+
+Raspberry Pi 3/4 で、試してみたい方は、下記記事を御覧ください。
+
+- [Web GPIO API/Web I2C API を Raspberry Pi の Node.js から使う](https://zenn.dev/kou029w/articles/node-web-gpio)
+
+## コントリビュートについて
+
+- [Contributing Guidelines](CONTRIBUTING.md)
+
 ## センサー一覧
 
 - [ADDA 変換モジュール ADS1115](./docs/ads1x15.md)
@@ -30,7 +64,3 @@
 - [VEML6070 UV センサー](./docs/veml6070.md)
 - [VL53L0X レーザー測距センサー 30 mm - 2 m](./docs/vl53l0x.md)
 - [vl53l1x](./docs/vl53l1x.md)
-
-## コントリビュートについて
-
-- [Contributing Guidelines](CONTRIBUTING.md)
