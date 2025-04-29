@@ -1,34 +1,27 @@
-# CHIRIMEN Drivers ガイドブック
+# CHIRIMEN と Raspberry Pi Zero W で始めるセンサー制御入門
 
 ## 本書について
 
 本書は、CHIRIMEN Open Hardware コミュニティで動作確認が取れた
-各種センサーのサンプルコードを紹介するガイドブックです。
+各種センサーのサンプルコードを使ってセンサー制御を入門する本です。
 
 ### 前提条件
 
-本書は、下記 Node ライブラリを使用する前提です。
+本書は、下記環境での使用を想定しています。
 
-- [node-web-i2c](https://www.npmjs.com/package/node-web-i2c)
-- [node-web-gpio](https://www.npmjs.com/package/node-web-gpio)
+#### デバイス
+
+- Raspberry Pi Zero **`W`**
+- `Wi-fi 搭載モデル`の Raspberry Pi Zero です。
+
+#### Node ライブラリ
+
+- I2C 制御用ライブラリ： [node-web-i2c](https://www.npmjs.com/package/node-web-i2c)
+- GPIO 制御用ライブラリ： [node-web-gpio](https://www.npmjs.com/package/node-web-gpio)
 
 ### 直ぐに開発を始めたい方
 
-#### Raspberry Pi Zero W
-
-以下の手順を行って下さい
-
-- [chirimen-lite](https://github.com/chirimen-oh/chirimen-lite) をダウンロード
-- Raspberry Pi Zero に上記 SD カードを装着
-- 電源起動
-- 任意の PC で、Chrome を開く
 - [CHIRIMEN Raspberry Pi Zero W チュートリアル](https://tutorial.chirimen.org/pizero/) を御覧ください
-
-#### Raspberry Pi 3/4
-
-Raspberry Pi 3/4 で、試してみたい方は、下記記事を御覧ください。
-
-- [Web GPIO API/Web I2C API を Raspberry Pi の Node.js から使う](https://zenn.dev/kou029w/articles/node-web-gpio)
 
 ## コントリビュートについて
 
