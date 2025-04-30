@@ -1,9 +1,43 @@
 # Summary
 
 - [CHIRIMEN と Raspberry Pi Zero W で始めるセンサー制御入門](README.md)
-- [センサーリスト（カテゴリ別）](./sensor-list-category.md)
-- [センサーリスト（型番アルファベット順）](./sensor-list-alphabet.md)
+  - センサーリスト（カテゴリ別）
+    - 🌡️ 温度・湿度・気圧センサー
+      - [ADT7410 温度センサー](./docs/adt7410.md)
+      - [BME280 温湿度/気圧センサー](./docs/bme280.md)
+      - [BMP180 気圧/温度/高度センサー](./docs/bmp180.md)
+      - [BMP280 気圧/温度センサー](./docs/bmp280.md)
+      - [MLX90614 赤外線温度センサー](./docs/mlx90614.md)
+      - [SHT30 温湿度センサー](./docs/sht30.md)
+    - 📈 加速度・ジャイロセンサー
+      - [ADXL345 Grove Accelerometer 3 軸加速度センサー](./docs/adxl345.md)
+      - [MPU6050 使用 ３軸ジャイロスコープ/３軸加速度センサー](./docs/mpu6050.md)
+      - [MPU9250 9 軸ジャイロスコープ加速度計/磁気フィールドセンサー ](./docs/mpu9250.md)
+    - 💡 光・カラー・UV センサー
+      - [BH1750 照度センサー](./docs/bh1750.md)
+      - [TCS34725 使用 カラーセンサー](./docs/tcs34725.md)
+      - [TSL2561 Grove Digital Light Sensor 光センサー](./docs/tsl2561.md)
+      - [S11059 デジタルカラーセンサー](./docs/s11059.md)
+      - [VEML6070 UV センサー](./docs/veml6070.md)
+    - 📏 距離・測距センサー
+      - [AMG883 I2C 接続の赤外線測距センサー](./docs/amg8833.md)
+      - [GP2Y0E03 測距センサー](./docs/gp2y0e03.md)
+      - [VL53L0X レーザー測距センサー 30 mm - 2 m](./docs/vl53l0x.md)
+      - [VL53L1X レーザー測距センサー](./docs/vl53l1x.md)
+    - 🧠 ジェスチャー・タッチセンサー
+      - [MPR121 Grove Touch Sensor タッチセンサー](./docs/mpr121.md)
+      - [PAJ7620U2 Grove Gesture ジェスチャー認識センサー](./docs/paj7620.md)
+    - ⚡ 電流・電圧・AD 変換モジュール
+      - [ADS1015 12 ビット AD コンバータ](./docs/ads1015.md)
+      - [ADS1115 ADDA 変換モジュール](./docs/ads1x15.md)
+      - [INA219 使用電流センサー](./docs/ina219.md)
+      - [PCF8591 AD/DA 転換モジュール](./docs/pcf8591.md)
+    - 🖥️ ディスプレイ・出力デバイス
+      - [neopixel-i2c](./docs/neopixel-i2c.md)
+      - [PCA9685 16 チャンネルサーボモーター PWM ドライバー](./docs/pca9685.md)
+      - [SSD1306 OLED ディスプレイ](./docs/ssd1306.md)
+      - [SSD1308 Grove OLED ディスプレイ](./docs/ssd1308.md)
 - [リンク集](./link.md)
-- [CHIRIMEN 対応デバイスリスト](./docs/device-list.md)
+- [CHIRIMEN 対応デバイスリスト](./device-list.md)
 - [CHIRIMEN Open Hardware コミュニティについて](./about.md)
 - [Contributing Guidelines](./CONTRIBUTING.md)
