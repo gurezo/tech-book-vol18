@@ -41,3 +41,4 @@
 - [CHIRIMEN 対応デバイスリスト](./docs/device-list.md)
 - [CHIRIMEN とは](./about.md)
 - [Contributing Guidelines](./CONTRIBUTING.md)
+- [表紙サンプル](./cover.md)
