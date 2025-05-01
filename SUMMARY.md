@@ -37,6 +37,7 @@
     - [PCA9685 16 チャンネルサーボモーター PWM ドライバー](./docs/pca9685.md)
     - [SSD1306 OLED ディスプレイ](./docs/ssd1306.md)
     - [SSD1308 Grove OLED ディスプレイ](./docs/ssd1308.md)
+- [センサーリスト（型番アルファベット順）](./sensor-list-alphabet.md)
 - [リンク集](./link.md)
 - [CHIRIMEN 対応デバイスリスト](./docs/device-list.md)
 - [CHIRIMEN とは](./about.md)
