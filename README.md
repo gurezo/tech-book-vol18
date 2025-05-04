@@ -2,8 +2,8 @@
 
 ## 本書について
 
-本書は、Raspberry Pi と各種センサー（温度・湿度・加速度など）を活用した電子工作やプログラミングに興味がある方のための技術同人誌です。
-実際にセンサーを動作させるためのサンプルコードや回路図を豊富に掲載し、初心者から経験者まで幅広くご活用いただけます。
+本書は、Raspberry Pi と各種センサー（温度・湿度・加速度など）を活用した電子工作やプログラミングに興味のある方のための技術同人誌です。
+センサーの動作に必要なサンプルコードや回路図を豊富に掲載しており、初心者から経験者まで幅広くご活用いただけます。
 
 - 公式サイト：[CHIRIMEN Raspberry Pi Zero W チュートリアル](https://tutorial.chirimen.org/pizero/)
 - 書籍：[ちりめんぱいぜろちゅーとりある](https://techbookfest.org/product/xmqdikrtEeFfyVxawvJKJf?productVariantID=6VgwkjJMzi5isuEeJLhEyk)
@@ -24,9 +24,11 @@
 #### デバイス
 
 - Raspberry Pi Zero W（Wi-Fi 搭載モデル）
-  - 主な購入先：
-    - KSY：[Raspberry Pi Zero WH [RASPIZWHSC0065]](https://raspberry-pi.ksyic.com/main/index/pdp.id/406,407,408,409,410,219,222/pdp.open/219)
-    - SWITCH SCIENCE：[Raspberry Pi Zero WH [RPI-ZERO-WH]](https://www.switch-science.com/products/3646?_pos=1&_sid=e9fd90251&_ss=r)
+
+#### 主な購入先：
+
+- KSY：[Raspberry Pi Zero WH [RASPIZWHSC0065]](https://raspberry-pi.ksyic.com/main/index/pdp.id/406,407,408,409,410,219,222/pdp.open/219)
+- SWITCH SCIENCE：[Raspberry Pi Zero WH [RPI-ZERO-WH]](https://www.switch-science.com/products/3646?_pos=1&_sid=e9fd90251&_ss=r)
 
 #### 必要な Node.js ライブラリ
 
