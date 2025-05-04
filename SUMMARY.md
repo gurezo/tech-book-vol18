@@ -1,6 +1,7 @@
 # Summary
 
 - [CHIRIMEN と Raspberry Pi Zero W で始めるセンサー制御入門](README.md)
+- [CHIRIMEN とは](about.md)
 - [センサーリスト（カテゴリ別）](./sensor-list-category.md)
   - 環境センサー
     - 温度・湿度センサー
@@ -108,7 +109,6 @@
     - 入門用
       - [hello-real-world](./docs/hello-real-world/index.md)
 - [リンク集](./link.md)
-- [CHIRIMEN 対応デバイスリスト](./docs/device-list.md)
 - [CHIRIMEN とは](./about.md)
 - [Contributing Guidelines](./CONTRIBUTING.md)
 - [表紙サンプル](./cover.md)

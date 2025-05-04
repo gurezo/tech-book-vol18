@@ -1,48 +1,42 @@
-# CHIRIMEN 対応センサーサンプルコード集
+# CHIRIMEN 対応デバイスレシピ集
 
 ## 本書について
 
-本書は、各種センサーを使った電子工作やプログラミングに興味のある方のための技術同人誌です。  
-Raspberry Pi と温度・湿度・加速度などのセンサーを実際に動かすためのサンプルコードや回路図を掲載しています。
+本書は、Raspberry Pi と各種センサー（温度・湿度・加速度など）を活用した電子工作やプログラミングに興味がある方のための技術同人誌です。
+実際にセンサーを動作させるためのサンプルコードや回路図を豊富に掲載し、初心者から経験者まで幅広くご活用いただけます。
 
-### 本書の特徴
+- 公式サイト：[CHIRIMEN Raspberry Pi Zero W チュートリアル](https://tutorial.chirimen.org/pizero/)
+- 書籍：[ちりめんぱいぜろちゅーとりある](https://techbookfest.org/product/xmqdikrtEeFfyVxawvJKJf?productVariantID=6VgwkjJMzi5isuEeJLhEyk)
 
-- **初心者でも安心**
-  - 各センサー毎に電子回路図を掲載しています。
-- **すぐに試せるサンプルコード**
-  - 各センサー毎に動作確認済みのサンプルコードを掲載しています。
-  - コピー＆ペーストですぐに動かせます。
-- **検証済みのセンサー・パーツの紹介**
-  - コミュニティメンバーよって検証されたパーツを紹介しています。
+上記と併せて読んで頂くとより一層理解が深まります。
 
-#### こんな方におすすめ
+### 本書の特徴とおすすめポイント
 
-- 電子工作や IoT に興味がある方
-- Raspberry Pi を使ってみたい方
-- センサーの使い方を基礎から学びたい方
-- 実践的なサンプルコードを探している方
+- 各センサーごとに分かりやすい電子回路図と、動作確認済みのサンプルコードを掲載
+- コピー＆ペーストですぐに試せる実践的な内容
+- コミュニティで検証された信頼性の高いパーツを紹介
+- 電子工作や IoT に興味のある方、Raspberry Pi を使ってみたい方、センサーの基礎から実践まで学びたい方に最適
 
 ### 前提条件
 
-本書は、下記環境での使用を想定しています。
+本書の内容をお試しいただくには、以下の環境を推奨します。
 
 #### デバイス
 
-- Raspberry Pi Zero **`W`**
-- `Wi-fi 搭載モデル`の Raspberry Pi Zero です。
-- 購入先
-  - KSY：[Raspberry Pi Zero WH [RASPIZWHSC0065]](https://raspberry-pi.ksyic.com/main/index/pdp.id/406,407,408,409,410,219,222/pdp.open/219)
-  - SWITCH SCIENCE：[Raspberry Pi Zero WH [RPI-ZERO-WH]](https://www.switch-science.com/products/3646?_pos=1&_sid=e9fd90251&_ss=r)
+- Raspberry Pi Zero W（Wi-Fi 搭載モデル）
+  - 主な購入先：
+    - KSY：[Raspberry Pi Zero WH [RASPIZWHSC0065]](https://raspberry-pi.ksyic.com/main/index/pdp.id/406,407,408,409,410,219,222/pdp.open/219)
+    - SWITCH SCIENCE：[Raspberry Pi Zero WH [RPI-ZERO-WH]](https://www.switch-science.com/products/3646?_pos=1&_sid=e9fd90251&_ss=r)
 
-#### Node ライブラリ
+#### 必要な Node.js ライブラリ
 
 - I2C 制御用ライブラリ： [node-web-i2c](https://www.npmjs.com/package/node-web-i2c)
 - GPIO 制御用ライブラリ： [node-web-gpio](https://www.npmjs.com/package/node-web-gpio)
 
 #### OS
 
-- Raspbian OS をカスタマイズした [CHIRIMEN Lite](https://github.com/chirimen-oh/chirimen-lite) という OS を使用します。
-- OS は、[こちら](https://github.com/chirimen-oh/chirimen-lite/releases)からダウンロードして下さい。
+- Raspbian OS をカスタマイズした[CHIRIMEN Lite](https://github.com/chirimen-oh/chirimen-lite) を使用します。
+- ダウンロードは[公式サイト](https://github.com/chirimen-oh/chirimen-lite/releases)をご参照ください。
 
 ### 直ぐに開発を始めたい方
 
