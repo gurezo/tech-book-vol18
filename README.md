@@ -32,6 +32,7 @@
 
 - I2C 制御用ライブラリ： [node-web-i2c](https://www.npmjs.com/package/node-web-i2c)
 - GPIO 制御用ライブラリ： [node-web-gpio](https://www.npmjs.com/package/node-web-gpio)
+- [Node.js のバージョン](https://nodejs.org/ja/about/previous-releases)は、v22.x 以上を推奨します。
 
 #### OS
 
