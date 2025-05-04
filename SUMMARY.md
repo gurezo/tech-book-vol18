@@ -109,6 +109,6 @@
     - 入門用
       - [hello-real-world](./docs/hello-real-world/index.md)
 - [リンク集](./link.md)
-- [CHIRIMEN とは](./about.md)
 - [Contributing Guidelines](./CONTRIBUTING.md)
+- [謝辞](./thanks.md)
 - [表紙サンプル](./cover.md)
