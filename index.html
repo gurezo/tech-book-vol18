@@ -1853,51 +1853,37 @@
                                 
                                 <h1 id="chirimen-対応デバイスレシピ集">CHIRIMEN 対応デバイスレシピ集</h1>
 <h2 id="本書について">本書について</h2>
-<p>本書は、各種センサーを使った電子工作やプログラミングに興味のある方のための技術同人誌です。<br></br>Raspberry Pi と温度・湿度・加速度などのセンサーを実際に動かすためのサンプルコードや回路図を掲載しています。</p>
-<h3 id="本書の特徴">本書の特徴</h3>
+<p>本書は、Raspberry Pi と各種センサー（温度・湿度・加速度など）を活用した電子工作やプログラミングに興味がある方のための技術同人誌です。
+実際にセンサーを動作させるためのサンプルコードや回路図を豊富に掲載し、初心者から経験者まで幅広くご活用いただけます。</p>
+<h3 id="本書の特徴とおすすめポイント">本書の特徴とおすすめポイント</h3>
 <ul>
-<li><strong>初心者でも安心</strong><ul>
-<li>各センサー毎に電子回路図を掲載しています。</li>
-</ul>
-</li>
-<li><strong>すぐに試せるサンプルコード</strong><ul>
-<li>各センサー毎に動作確認済みのサンプルコードを掲載しています。</li>
-<li>コピー＆ペーストですぐに動かせます。</li>
-</ul>
-</li>
-<li><strong>検証済みのセンサー・パーツの紹介</strong><ul>
-<li>コミュニティメンバーよって検証されたパーツを紹介しています。</li>
-</ul>
-</li>
-</ul>
-<h4 id="こんな方におすすめ">こんな方におすすめ</h4>
-<ul>
-<li>電子工作や IoT に興味がある方</li>
-<li>Raspberry Pi を使ってみたい方</li>
-<li>センサーの使い方を基礎から学びたい方</li>
-<li>実践的なサンプルコードを探している方</li>
+<li>各センサーごとに分かりやすい電子回路図と、動作確認済みのサンプルコードを掲載</li>
+<li>コピー＆ペーストですぐに試せる実践的な内容</li>
+<li>コミュニティで検証された信頼性の高いパーツを紹介</li>
+<li>電子工作や IoT に興味のある方、Raspberry Pi を使ってみたい方、センサーの基礎から実践まで学びたい方に最適</li>
 </ul>
 <h3 id="前提条件">前提条件</h3>
-<p>本書は、下記環境での使用を想定しています。</p>
+<p>本書の内容をお試しいただくには、以下の環境を推奨します。</p>
 <h4 id="デバイス">デバイス</h4>
 <ul>
-<li>Raspberry Pi Zero <strong><code>W</code></strong></li>
-<li><code>Wi-fi 搭載モデル</code>の Raspberry Pi Zero です。</li>
-<li>購入先<ul>
+<li>Raspberry Pi Zero W（Wi-Fi 搭載モデル）<ul>
+<li>主な購入先：<ul>
 <li>KSY：<a href="https://raspberry-pi.ksyic.com/main/index/pdp.id/406,407,408,409,410,219,222/pdp.open/219" target="_blank">Raspberry Pi Zero WH [RASPIZWHSC0065]</a></li>
 <li>SWITCH SCIENCE：<a href="https://www.switch-science.com/products/3646?_pos=1&amp;_sid=e9fd90251&amp;_ss=r" target="_blank">Raspberry Pi Zero WH [RPI-ZERO-WH]</a></li>
 </ul>
 </li>
 </ul>
-<h4 id="node-ライブラリ">Node ライブラリ</h4>
+</li>
+</ul>
+<h4 id="必要な-nodejs-ライブラリ">必要な Node.js ライブラリ</h4>
 <ul>
 <li>I2C 制御用ライブラリ： <a href="https://www.npmjs.com/package/node-web-i2c" target="_blank">node-web-i2c</a></li>
 <li>GPIO 制御用ライブラリ： <a href="https://www.npmjs.com/package/node-web-gpio" target="_blank">node-web-gpio</a></li>
 </ul>
 <h4 id="os">OS</h4>
 <ul>
-<li>Raspbian OS をカスタマイズした <a href="https://github.com/chirimen-oh/chirimen-lite" target="_blank">CHIRIMEN Lite</a> という OS を使用します。</li>
-<li>OS は、<a href="https://github.com/chirimen-oh/chirimen-lite/releases" target="_blank">こちら</a>からダウンロードして下さい。</li>
+<li>Raspbian OS をカスタマイズした<a href="https://github.com/chirimen-oh/chirimen-lite" target="_blank">CHIRIMEN Lite</a> を使用します。</li>
+<li>ダウンロードは<a href="https://github.com/chirimen-oh/chirimen-lite/releases" target="_blank">公式サイト</a>をご参照ください。</li>
 </ul>
 <h3 id="直ぐに開発を始めたい方">直ぐに開発を始めたい方</h3>
 <ul>
@@ -1951,7 +1937,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"CHIRIMEN と Raspberry Pi Zero W で始めるセンサー制御入門","level":"1.1","depth":1,"next":{"title":"CHIRIMEN とは","level":"1.2","depth":1,"path":"about.md","ref":"about.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"README.md","mtime":"2025-05-04T06:31:12.059Z","type":"markdown"},"gitbook":{"version":"6.0.2","time":"2025-05-04T06:33:39.078Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"CHIRIMEN と Raspberry Pi Zero W で始めるセンサー制御入門","level":"1.1","depth":1,"next":{"title":"CHIRIMEN とは","level":"1.2","depth":1,"path":"about.md","ref":"about.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"README.md","mtime":"2025-05-04T06:45:50.129Z","type":"markdown"},"gitbook":{"version":"6.0.2","time":"2025-05-04T06:46:35.110Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
